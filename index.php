@@ -76,27 +76,22 @@
             <h1>Top 5 Games</h1>
             <figure>
                 <img src="images/fpo.png" alt="fpo_image">    
-                <figcaption>placeholder</figcaption>
             </figure>
 
             <figure>
                 <img src="images/fpo.png" alt="fpo_image">    
-                <figcaption>placeholder</figcaption>
             </figure>
 
             <figure>
                 <img src="images/fpo.png" alt="fpo_image">
-                <figcaption>placeholder</figcaption>
             </figure>
 
-            <figure>
+            <figure class = "bot2">
                 <img src="images/fpo.png" alt="fpo_image">    
-                <figcaption>placeholder</figcaption>
             </figure>
 
-            <figure>
+            <figure class = "bot2">
                 <img src="images/fpo.png" alt="fpo_image">    
-                <figcaption>placeholder</figcaption>
             </figure>
         </section>
 
