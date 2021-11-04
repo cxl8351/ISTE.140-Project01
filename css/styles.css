@@ -74,3 +74,18 @@ article{
 #sources a{
     text-decoration: none;
 }
+
+figure{
+    padding-bottom: 20px;
+}
+
+#mario_history img{
+    float: left;
+    padding-right: 40px;
+}
+
+#gameboy img{
+    float: right;
+    padding-left: 40px;
+    padding-top: 50px;
+}
