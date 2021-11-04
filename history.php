@@ -10,15 +10,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>History</title>
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
-        <figure>
+        <figure class = "top_img">
             <img src="images/logo.png" alt="nintendo_logo">
         </figure>
-
         <?php include "inc/nav.php";?>
-
+        <div class="container">
         <section id="history">
             <h1>History</h1>
             <figure>
@@ -68,4 +69,5 @@
         <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
         <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
     </footer>
+        </div>
 </html>
