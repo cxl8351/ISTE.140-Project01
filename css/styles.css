@@ -88,3 +88,26 @@ article{
     float: right;
     padding-left: 40px;
 }
+
+#debate1{
+    padding-bottom: 0px;
+}
+
+#debate1 img{
+    float: left;
+    padding-right: 40px;
+}
+
+#debate2{
+    padding-top: 0px;
+}
+
+#debate2 img{
+    float: right;
+    padding-left: 40px;
+}
+
+#debate2 h2{
+    text-align: right;
+    padding-right: 200px;
+}
