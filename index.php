@@ -1,7 +1,7 @@
 <!-- 
     ISTE.140 - Project
     Kyoto, Japan - Nintendo
-    index.html 
+    index.php 
 -->
 
 <!DOCTYPE html>

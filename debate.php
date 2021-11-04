@@ -1,7 +1,7 @@
 <!-- 
     ISTE.140 - Project
     Kyoto, Japan - Nintendo
-    debate.html 
+    debate.php 
 -->
 
 <!DOCTYPE html>
