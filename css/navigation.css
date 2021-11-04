@@ -3,3 +3,37 @@
     Kyoto, Japan - Nintendo
     navigation.css
 */
+
+#menu ul{
+    flex-direction: row;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: lightgrey;
+    float: left;
+    list-style-type: none;
+}
+
+#menu li a{
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+#menu li a:hover{
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: darkgrey;
+}
+
