@@ -3,6 +3,13 @@
     Kyoto, Japan - Nintendo
     styes.css
 */
+.top_img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+}
+
 .container{
     margin-left: 175px;
     margin-right: 175px;
@@ -36,7 +43,34 @@ article{
     width: 70%;
 }
 
+#top5 figure{
+    padding-left: 60px;
+}
+
+#top5 .bot2{
+    padding-left: 220px;
+}
+
+#top5 img{
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 #brief p{
     padding-left: 100px;
     padding-right: 100px;
+}
+
+#sources{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#sources li{
+    list-style-type: none;
+}
+
+#sources a{
+    text-decoration: none;
 }
