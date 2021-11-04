@@ -24,9 +24,9 @@
         <div class="container">
         <section id="history">
             <h1>History</h1>
-            <figure>
+            <article>
+            <figure id = "mario_history">
                 <img src="images/mario.png" alt="mario">
-                <figcaption>placeholder</figcaption>
             </figure>
             <p>
                 Nintendo was founded as Nintendo Karuta[d] on 23 September 1889[7] by craftsman Fusajiro Yamauchi in Shimogyō-ku, 
@@ -41,10 +41,10 @@
                 merchants were interested in the prospect of a continuous renewal of decks, thus avoiding the suspicions that reusing 
                 cards would generate.[13]
             </p>
-
-            <figure>
+            </article>
+            <article>
+            <figure id = "gameboy">
                 <img src="images/gameboy1.jpg" alt="gameboy">
-                <figcaption>placeholder</figcaption>
             </figure>
             
             <p>
@@ -62,6 +62,7 @@
                 the Yamauchi surname in 1907 and became the second president of Nintendo Koppai in 1929. By that time, Nintendo Koppai 
                 was the largest card game company in Japan.[18]
             </p>
+            </article>
         </section>
     </body>
 
