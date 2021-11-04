@@ -17,12 +17,7 @@
             <img src="images/logo.png" alt="nintendo_logo">
         </figure>
         
-        <nav id="menu">
-            <ul><a href="index.html">Home</a></ul>
-            <ul><a href="history.html">History</a></ul>
-            <ul><a href="evolution.html">Evolution</a></ul>
-            <ul><a href="debate.html">Debate</a></ul>
-        </nav>
+        <?php include "inc/nav.php";?>
 
         <section id="debate">
             <h1>Debate</h1>
