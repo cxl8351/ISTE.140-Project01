@@ -12,8 +12,6 @@
         <link rel="stylesheet" href="css/navigation.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Debate</title>
-        <link rel="stylesheet" href="css/navigation.css">
-        <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
@@ -29,7 +27,6 @@
                 <h2>#FreeSmash</h2>
                 <figure>
                     <img src="images/smash.jpg" alt="smash">
-                    <figcaption>placeholder</figcaption>
                 </figure>
                 <p>
                     The Big House is one of the most well-known Super Smash Bros Melee tournaments in the world. In October 2020, they announced 
@@ -50,7 +47,6 @@
                 <h2>Mario Movie</h2>
                 <figure>
                     <img src="images/chris.png" alt="chris pratt">
-                    <figcaption>placeholder</figcaption>
                 </figure>
                 <p>
                     On Sept. 23, Nintendo announced via its online presentation Nintendo Direct that it will be releasing a new animated Super 
