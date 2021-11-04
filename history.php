@@ -24,7 +24,7 @@
         <div class="container">
         <section id="history">
             <h1>History</h1>
-            <article>
+            <article id = "mario_article">
             <figure id = "mario_history">
                 <img src="images/mario.png" alt="mario">
             </figure>
