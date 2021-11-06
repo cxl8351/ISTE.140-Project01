@@ -21,9 +21,9 @@
         
         <?php include "inc/nav.php";?>
         <div class="container">
-        <figure>
+        <figure class = "evo_img">
             <img src="images/nes.jpg" alt="nes">
-            <figcaption>placeholder</figcaption>
+            <img src="images/wii.jpg" alt="wii">
         </figure>
         
         <table border="2" id="evolution">
@@ -72,9 +72,9 @@
             </tr>
         </table>
 
-        <figure>
+        <figure class = "evo_img">
             <img src="images/switch.jpg" alt="switch">
-            <figcaption>placeholder</figcaption>
+            <img src="images/n64.jpg" alt="n64">
         </figure>
         
     </body>
