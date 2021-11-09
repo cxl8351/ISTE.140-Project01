@@ -22,13 +22,19 @@
         <?php include "inc/nav.php";?>
 
         <!-- Here we try to reciprocate a carousel. As far as we believe, there is no semantically correct 'carousel' tag-->
-        <div id="roulette">
-            <img src="images/roulette1.jpg" alt="roulette1">
-            <img src="images/animal_crossing.jpg" alt="roulette2">
-            <img src="images/roulette3.jpg" alt="roulette3">
-            <img src="images/roulette4.jpg" alt="roulette4">
-            <img src="images/roulette5.jpg" alt="roulette5">
+        <div class="carousel">
+            <button class="carousel__button previous" id="previous">></button>
+                <div class="carousel__images">
+                    <ul>
+                        <img class="active" src="images/animal_crossing.jpg" alt="roulette2">
+                        <img src="images/roulette3.jpg" alt="roulette3">
+                        <img src="images/roulette4.jpg" alt="roulette4">
+                        <img src="images/roulette5.jpg" alt="roulette5">
+                    </ul>
+                </div>
+            <button class="carousel__button next" id="next">></button>
         </div>
+
         <div class="container">
         <section id="news">
             <h1>News and Recent Events</h1>
@@ -128,5 +134,40 @@
         <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
         <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
     </footer>
+
+    <script>
+        
+        const carouselImages = document.querySelector('.carousel__images');
+        const images = document.querySelectorAll('.carousel__images img');
+        const carouselButtons = document.querySelectorAll('.carousel__button');
+        const numberOfImages = document.querySelectorAll('.carousel__images img').length;
+        let imageIndex = 1;
+        let translateX = 0;
+
+        carouselButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            if (event.target.id === 'previous') {
+            if (imageIndex !== 1) {
+                imageIndex--;
+                translateX += 1380;
+            }
+            } else {
+            if (imageIndex !== numberOfImages) {
+                imageIndex++;
+                translateX -= 1380;
+            }
+            }
+
+            carouselImages.style.transform = `translateX(${translateX}px)`;
+            images.forEach((image, index) => {
+            if (index === imageIndex - 1) {
+                image.classList.add('active');
+            } else {
+                image.classList.remove('active');
+            }
+            });
+        });
+        });
+    </script>
         </div>
 </html>
