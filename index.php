@@ -19,7 +19,7 @@
             <img src="images/logo.png" alt="nintendo_logo">
         </figure>
         
-        <?php include "inc/nav.php";?>
+            <?php include "inc/nav.php";?>
 
         <!-- Here we try to reciprocate a carousel. As far as we believe, there is no semantically correct 'carousel' tag-->
         <div class="carousel">
@@ -30,6 +30,10 @@
                         <img src="images/roulette3.jpg" alt="roulette3">
                         <img src="images/roulette4.jpg" alt="roulette4">
                         <img src="images/roulette5.jpg" alt="roulette5">
+                        <img src="images/logo2.png" alt="roulette6">
+                        <img src="images/n642.png" alt="roulette7">
+                        <img src="images/dkgame.png" alt="roulette8">
+                        <img src="images/marioworld.png" alt="roulette9">
                     </ul>
                 </div>
             <button class="carousel__button next" id="next">></button>
@@ -149,12 +153,12 @@
             if (event.target.id === 'previous') {
             if (imageIndex !== 1) {
                 imageIndex--;
-                translateX += 1380;
+                translateX += 660;
             }
             } else {
             if (imageIndex !== numberOfImages) {
                 imageIndex++;
-                translateX -= 1380;
+                translateX -= 660;
             }
             }
 
