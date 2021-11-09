@@ -36,7 +36,7 @@
             <!-- An event is represented by an article. These share a 1:1 relationship. -->
             <article id = "sora">
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">
+                    <img src="images/sora.png" alt="fpo_image">
                 </figure>
                 <h2>Sora's Introduction to Super Smash Brothers: Ultimate</h2>
                 <p>Nintendo Co., Ltd.[b] is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan. The company was founded in 1889 as Nintendo Karuta[c] by craftsman Fusajiro Yamauchi and originally produced handmade hanafuda playing cards. After venturing into various lines of business during the 1960s and acquiring a legal status as a public company under the current company name, Nintendo distributed its first video game console, the Color TV-Game, in 1977. It gained international recognition with the release of Donkey Kong in 1981 and the Nintendo Entertainment System and Super Mario Bros. in 1985.</p>
@@ -45,7 +45,7 @@
 
             <article id = "warioware">
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">
+                    <img src="images/wario.png" alt="fpo_image">
                 </figure>
                 <h2>WarioWare™: Get It Together! Releases</h2>
                 <p>For the first time, YOU control Wario and friends inside their own chaotic games. Use their distinctly absurd abilities to take on a rush of microgames. Tip a turtle with the help of Wario’s dash or choose Ashley and hurl a spell at it. In the WarioWare: Get It Together! game, mix and match characters and microgames for maximum fun!</p>
@@ -53,7 +53,7 @@
 
             <article id = "metroid">
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">
+                    <img src="images/metroid.png" alt="fpo_image">
                 </figure>
                 <h2>Metroid: Dread</h2>
                 <p>Join bounty hunter Samus Aran as she tries to escape a deadly alien world plagued by a mechanical menace</p>
@@ -62,7 +62,7 @@
 
             <article id="nick">
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">
+                    <img src="images/nick.png" alt="fpo_image">
                 </figure>
                 <h2>Nickelodeon All Star Brawl Releases on Switch</h2>
                 <p>Brawl it out as your favorite Nickelodeon characters in bombastic platform battles! With a power-packed cast of heroes from the Nickelodeon universe, face-off with all-stars from SpongeBob Squarepants, Teenage Mutant Ninja Turtles, The Loud House, Danny Phantom, Aaahh!!! Real Monsters, The Wild Thornberrys, Hey Arnold!, Rugrats, and more to determine ultimate animation dominance. With unique move sets and attacks inspired by their personalities, each character has an individual style of play enabling endless action for Nickelodeon’s legion of fans. Select your favorite and then let the intense brawls begin with online and local multiplayer action.</p>
