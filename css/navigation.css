@@ -3,13 +3,13 @@
     Kyoto, Japan - Nintendo
     navigation.css
 */
-
 #menu ul{
     flex-direction: row;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #menu li{
