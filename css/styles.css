@@ -111,3 +111,19 @@ article{
     text-align: right;
     padding-right: 200px;
 }
+
+.evo_img img{
+    padding-left: 130px;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+td{
+    text-align: center;
+    padding: 7px;
+    font-size: 1.1em;
+}
+
+th{
+    font-size: 1.2em;
+}
