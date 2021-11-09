@@ -26,7 +26,7 @@
             <img src="images/wii.jpg" alt="wii">
         </figure>
         
-        <table border="2" id="evolution">
+        <table border = "1" id="evolution">
             <tr>
                 <th>Console</th>
                 <th>Year Released</th>
