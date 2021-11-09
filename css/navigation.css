@@ -9,13 +9,13 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 #menu li{
     border: 5px solid white;
     border-radius: 25px;
     background-color: lightgrey;
-    float: left;
     list-style-type: none;
 }
 
