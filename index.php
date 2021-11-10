@@ -14,8 +14,6 @@
         <title>Home</title>
     </head>
 
-    <!-- This is a test push! -->
-
     <body>
         <figure class = "top_img">
             <img src="images/logo.png" alt="nintendo_logo">
