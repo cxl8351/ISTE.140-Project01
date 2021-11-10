@@ -3,6 +3,11 @@
     Kyoto, Japan - Nintendo
     styes.css
 */
+
+h1{
+    float:left;
+}
+
 .top_img img{
     margin-left: auto;
     margin-right: auto;
@@ -62,10 +67,11 @@ button:hover {
 }
 
 .container{
-    margin-left: 175px;
-    margin-right: 175px;
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 960px;
+	width: 90%;
 }
 
 h1{
@@ -107,6 +113,14 @@ article{
     padding-left: 10px;
     padding-bottom: 10px;
 }
+
+/*
+#top5 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+*/
 
 #brief p{
     padding-left: 100px;
@@ -163,8 +177,11 @@ article{
     padding-right: 200px;
 }
 
-.evo_img img{
-    padding-left: 130px;
+.evo_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 tr:hover {background-color: #D6EEEE;}
@@ -177,4 +194,40 @@ td{
 
 th{
     font-size: 1.2em;
+}
+
+@media(max-width: 415px){
+
+    .container {
+        display: block;
+        float: none;
+        padding:0;
+        margin:0;
+    }
+
+    /* Reset the figure and set their max-width to 100%
+       of the container*/
+    figure {
+		float: none;
+		margin-left: initial;
+		padding: 0;
+		margin: 0;
+        max-width: 100%;
+	}
+
+    /* Reset images and set their max-width to 100%
+       of the container*/
+    img{
+        float: none;
+		margin-left: initial;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+	figcaption{
+		padding-bottom: 20px;
+	}
+    
 }

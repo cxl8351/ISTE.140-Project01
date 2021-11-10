@@ -41,3 +41,6 @@
     background-color: darkgrey;
 }
 
+@media (max-width: 415px) {
+	.main-menu ul, .main-menu li { display: block; } 
+}

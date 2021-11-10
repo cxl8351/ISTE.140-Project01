@@ -79,8 +79,8 @@
                 
             </section>
 
+            <h1>Top 5 Games</h1>
             <section id="top5">
-                <h1>Top 5 Games</h1>
                 <figure>
                     <img src="images/fpo.png" alt="fpo_image">    
                 </figure>
@@ -93,11 +93,11 @@
                     <img src="images/fpo.png" alt="fpo_image">
                 </figure>
 
-                <figure class = "bot2">
+                <figure>
                     <img src="images/fpo.png" alt="fpo_image">    
                 </figure>
 
-                <figure class = "bot2">
+                <figure>
                     <img src="images/fpo.png" alt="fpo_image">    
                 </figure>
             </section>

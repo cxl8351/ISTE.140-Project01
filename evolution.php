@@ -22,6 +22,7 @@
         <?php include "inc/nav.php";?>
 
         <div class="container">
+            <h1>Evolution</h1>
             
             <figure class = "evo_img">
                 <img src="images/nes.jpg" alt="nes">
