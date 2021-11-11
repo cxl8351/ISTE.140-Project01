@@ -82,23 +82,23 @@
             <h1>Top 5 Games</h1>
             <section id="top5">
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">    
+                    <img src="images/animalcrossing.png" alt="fpo_image">    
                 </figure>
 
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">    
+                    <img src="images/zelda.png" alt="fpo_image">    
                 </figure>
 
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">
+                    <img src="images/kart.png" alt="fpo_image">
                 </figure>
 
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">    
+                    <img src="images/smash.png" alt="fpo_image">    
                 </figure>
 
                 <figure>
-                    <img src="images/fpo.png" alt="fpo_image">    
+                    <img src="images/odyssey.png" alt="fpo_image">    
                 </figure>
             </section>
 
