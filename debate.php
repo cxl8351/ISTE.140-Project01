@@ -62,13 +62,17 @@
                 </article>
             </section>
         </div>
+
+        <footer id="sources">
+            <h2>Sources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Nintendo">Wikipedia</a></li>
+                <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
+                <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
+            </ul>
+        </footer>
     </body>
 
-    <footer id="sources">
-        <h2>Sources</h2>
-        <li><a href="https://en.wikipedia.org/wiki/Nintendo">Wikipedia</a></li>
-        <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
-        <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
-    </footer>
+    
 
 </html>
