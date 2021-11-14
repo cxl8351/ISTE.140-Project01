@@ -26,12 +26,12 @@
             <button class="carousel__button previous" id="previous"></button>
                 <div class="carousel__images">
                     <ul>
-                        <img class="active" src="images/animal_crossing.jpg" alt="roulette2">
-                        <img src="images/roulette3.jpg" alt="roulette3">
-                        <img src="images/roulette4.jpg" alt="roulette4">
+                        <img class="active" src="images/ac-happy-home.png" alt="Animal Cross New Horizons">
+                        <img src="images/smt-v.png" alt="Shin Megami Tensei Five">
+                        <img src="images/world-ends.png" alt="The Worlds End with You">
+                        <img src="images/fatal-frame.png" alt="Fatal Frame Five">
+                        <img src="images/indie-recap.png" alt="Indie Game Recap">
                         <img src="images/roulette5.jpg" alt="roulette5">
-                        <img src="images/logo2.png" alt="roulette6">
-                        <img src="images/n642.png" alt="roulette7">
                         <img src="images/dkgame.png" alt="roulette8">
                         <img src="images/marioworld.png" alt="roulette9">
                     </ul>
