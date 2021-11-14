@@ -73,7 +73,6 @@
 
             <h1>Top 5 Games</h1>
             <section id="top5">
-                <!-- Remove all figure -->
                 <img src="images/animalcrossing.png" alt="animalcrossing">    
                 <img src="images/zelda.png" alt="zelda">    
                 <img src="images/kart.png" alt="kart">

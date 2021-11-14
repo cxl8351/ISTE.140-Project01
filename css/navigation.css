@@ -40,7 +40,8 @@
     border-radius: 25px 25px 25px 25px;
     background-color: darkgrey;
 }
-
+/*  Given a threshold of a width of 415px,
+    change the menu into a vertical list.*/
 @media (max-width: 415px) {
-	.menu ul, .menu li { display: block; } 
+	#menu ul, #menu li { display: block; } 
 }
