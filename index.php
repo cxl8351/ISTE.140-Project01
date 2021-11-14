@@ -26,14 +26,15 @@
             <button class="carousel__button previous" id="previous"></button>
                 <div class="carousel__images">
                     <ul>
-                        <img class="active" src="images/ac-happy-home.png" alt="Animal Cross New Horizons">
-                        <img src="images/smt-v.png" alt="Shin Megami Tensei Five">
-                        <img src="images/world-ends.png" alt="The Worlds End with You">
-                        <img src="images/fatal-frame.png" alt="Fatal Frame Five">
-                        <img src="images/indie-recap.png" alt="Indie Game Recap">
-                        <img src="images/roulette5.jpg" alt="roulette5">
-                        <img src="images/dkgame.png" alt="roulette8">
-                        <img src="images/marioworld.png" alt="roulette9">
+                        <li><img class="active" src="images/ac-happy-home.png" alt="Animal Cross New Horizons"></li>
+                        <li><img src="images/smt-v.png" alt="Shin Megami Tensei Five"></li>                    
+                        <li><img src="images/world-ends.png" alt="The Worlds End with You"></li>
+                        <li><img src="images/fatal-frame.png" alt="Fatal Frame Five"></li>
+                        <li><img src="images/indie-recap.png" alt="Indie Game Recap"></li> 
+                        <li><img src="images/roulette5.jpg" alt="roulette5"></li>
+                        <li><img src="images/dkgame.png" alt="roulette8"></li>
+                        <li><img src="images/marioworld.png" alt="roulette9"></li>
+                        
                     </ul>
                 </div>
             <button class="carousel__button next" id="next"></button>
@@ -105,47 +106,48 @@
                 </p>
             </section>
         </div>
-    </body>
 
-    <footer id="sources">
-        <h2>Sources</h2>
-        <li><a href="https://en.wikipedia.org/wiki/Nintendo">Wikipedia</a></li>
-        <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
-        <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
-    </footer>
+        <footer id="sources">
+            <h2>Sources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Nintendo">Wikipedia</a></li>
+                <li><a href="https://www.ssbwiki.com/Sora_(SSBU)">SSBU Wiki</a></li>
+                <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
+            </ul>
+        </footer>
 
-    <script>
-        
-        const carouselImages = document.querySelector('.carousel__images');
-        const images = document.querySelectorAll('.carousel__images img');
-        const carouselButtons = document.querySelectorAll('.carousel__button');
-        const numberOfImages = document.querySelectorAll('.carousel__images img').length;
-        let imageIndex = 1;
-        let translateX = 0;
+        <script>
+            const carouselImages = document.querySelector('.carousel__images');
+            const images = document.querySelectorAll('.carousel__images img');
+            const carouselButtons = document.querySelectorAll('.carousel__button');
+            const numberOfImages = document.querySelectorAll('.carousel__images img').length;
+            let imageIndex = 1;
+            let translateX = 0;
 
-        carouselButtons.forEach(button => {
-        button.addEventListener('click', (event) => {
-            if (event.target.id === 'previous') {
-            if (imageIndex !== 1) {
-                imageIndex--;
-                translateX += 660;
-            }
-            } else {
-            if (imageIndex !== numberOfImages) {
-                imageIndex++;
-                translateX -= 660;
-            }
-            }
+            carouselButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                if (event.target.id === 'previous') {
+                if (imageIndex !== 1) {
+                    imageIndex--;
+                    translateX += 660;
+                }
+                } else {
+                if (imageIndex !== numberOfImages) {
+                    imageIndex++;
+                    translateX -= 660;
+                }
+                }
 
-            carouselImages.style.transform = `translateX(${translateX}px)`;
-            images.forEach((image, index) => {
-            if (index === imageIndex - 1) {
-                image.classList.add('active');
-            } else {
-                image.classList.remove('active');
-            }
+                carouselImages.style.transform = `translateX(${translateX}px)`;
+                images.forEach((image, index) => {
+                if (index === imageIndex - 1) {
+                    image.classList.add('active');
+                } else {
+                    image.classList.remove('active');
+                }
+                });
             });
-        });
-        });
-    </script>
+            });
+        </script>
+    </body>
 </html>
