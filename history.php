@@ -27,9 +27,7 @@
                 <h1>History</h1>
 
                 <article id = "mario_article">
-                    <figure id = "mario_history">
-                        <img src="images/mario.png" alt="mario">
-                    </figure>
+                    <img src="images/mario.png" alt="mario">
                     <p>
                         Nintendo was founded as Nintendo Karuta[d] on 23 September 1889[7] by craftsman Fusajiro Yamauchi in Shimogyō-ku, 
                         Kyoto, Japan, to produce and distribute hanafuda (花札, "flower cards"),[1][4][8] a type of traditional Japanese 
@@ -46,10 +44,7 @@
                 </article>
 
                 <article>
-                    <figure id = "gameboy">
-                        <img src="images/gameboy1.jpg" alt="gameboy">
-                    </figure>
-                    
+                    <img src="images/gameboy1.jpg" alt="gameboy">
                     <p>
                         According to data from Nintendo, the company's first western-style card deck was put on the market in 1902,[3] although 
                         other documents postpone the date to 1907, shortly after the Russo-Japanese War.[14] The war created considerable 

@@ -24,7 +24,6 @@
         <div class="container">
 
             <section id="debate">
-                
                 <h1>Debate</h1>
                 <article id="debate1">
                     <h2>#FreeSmash</h2>

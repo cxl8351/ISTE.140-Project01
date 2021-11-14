@@ -106,33 +106,9 @@ article{
     width: 70%;
 }
 
-#top5 figure{
-    padding-left: 60px;
+#top5{
+    text-align: center;
 }
-
-#top5 .bot2{
-    padding-left: 220px;
-}
-
-/*
-#top5 img{
-    float: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-*/
-
-section #top5{
-    text-align:center;
-}
-
-/*
-#top5 {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-*/
 
 #brief p{
     padding-left: 100px;
