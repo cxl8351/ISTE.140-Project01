@@ -114,10 +114,16 @@ article{
     padding-left: 220px;
 }
 
+/*
 #top5 img{
     float: left;
     padding-left: 10px;
     padding-bottom: 10px;
+}
+*/
+
+section #top5{
+    text-align:center;
 }
 
 /*

@@ -28,9 +28,7 @@
                 <h1>Debate</h1>
                 <article id="debate1">
                     <h2>#FreeSmash</h2>
-                    <figure>
-                        <img src="images/smash.jpg" alt="smash">
-                    </figure>
+                    <img src="images/smash.jpg" alt="smash">
                     <p>
                         The Big House is one of the most well-known Super Smash Bros Melee tournaments in the world. In October 2020, they announced 
                         that that year’s event (in December) would have to take place online. Going online was only possible thanks to Slippi 
@@ -48,9 +46,7 @@
                 
                 <article id="debate2">
                     <h2>Mario Movie</h2>
-                    <figure>
-                        <img src="images/chris.png" alt="chris pratt">
-                    </figure>
+                    <img src="images/chris.png" alt="chris pratt">
                     <p>
                         On Sept. 23, Nintendo announced via its online presentation Nintendo Direct that it will be releasing a new animated Super 
                         Mario movie in 2022 with Illumination Studios. The cast includes “The Queen’s Gambit” star Anya Taylor-Joy as Princess 

@@ -42,5 +42,5 @@
 }
 
 @media (max-width: 415px) {
-	.main-menu ul, .main-menu li { display: block; } 
+	.menu ul, .menu li { display: block; } 
 }
