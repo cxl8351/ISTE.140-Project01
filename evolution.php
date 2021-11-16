@@ -15,15 +15,20 @@
     </head>
 
     <body>
-        <img src="images/logo.png" alt="nintendo_logo">
+        
+        <figure class = "top_img">
+            <img src="images/logo.png" alt="nintendo_logo">
+        </figure>
 
         <?php include "inc/nav.php";?>
 
         <div class="container">
             <h1>Evolution</h1>
             
-            <img src="images/nes.jpg" alt="nes">
-            <img src="images/wii.jpg" alt="wii">
+            <figure>
+                <img src="images/nes.jpg" alt="nes">
+                <img src="images/wii.jpg" alt="wii">
+            </figure>
             
             <div id="overflow-table">
                 <table border = "1" id="evolution">
@@ -73,8 +78,10 @@
                 </table>
             </div>
             
-            <img src="images/switch.jpg" alt="switch">
-            <img src="images/n64.jpg" alt="n64">
+            <figure>
+                <img src="images/switch.jpg" alt="switch">
+                <img src="images/n64.jpg" alt="n64">
+            </figure>
         </div>
 
         <footer id = "sources">
