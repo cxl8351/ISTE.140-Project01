@@ -43,7 +43,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article id = "gameboy">
                     <img src="images/gameboy1.jpg" alt="gameboy">
                     <p>
                         According to data from Nintendo, the company's first western-style card deck was put on the market in 1902,[3] although 
