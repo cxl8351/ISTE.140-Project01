@@ -8,9 +8,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/navigation.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
     </head>
 
@@ -21,27 +27,33 @@
         
         <?php include "inc/nav.php";?>
 
-        <!-- Here we try to reciprocate a carousel. As far as we believe, there is no semantically correct 'carousel' tag-->
-        <div class="carousel">
-            <button class="carousel__button previous" id="previous"></button>
-                <div class="carousel__images">
-                    <ul>
-                        <li><img class="active" src="images/ac-happy-home.png" alt="Animal Cross New Horizons"></li>
-                        <li><img src="images/smt-v.png" alt="Shin Megami Tensei Five"></li>                    
-                        <li><img src="images/world-ends.png" alt="The Worlds End with You"></li>
-                        <li><img src="images/fatal-frame.png" alt="Fatal Frame Five"></li>
-                        <li><img src="images/indie-recap.png" alt="Indie Game Recap"></li> 
-                        <li><img src="images/roulette5.jpg" alt="roulette5"></li>
-                        <li><img src="images/dkgame.png" alt="roulette8"></li>
-                        <li><img src="images/marioworld.png" alt="roulette9"></li>
-                        
-                    </ul>
+        <!-- Here we use the slick slider plugin to power our carousel. -->
+        <div class="carousel-container">
+            <div id="carousel">
+                <div>
+                    <img src="images/ac-happy-home.png" alt="Animal Cross New Horizons">
                 </div>
-            <button class="carousel__button next" id="next"></button>
+                <div>
+                    <img src="images/smt-v.png" alt="Shin Megami Tensei Five">
+                </div>
+                <div>
+                    <img src="images/fatal-frame.png" alt="Fatal Frame Five">
+                </div>
+                <div>
+                    <img src="images/indie-recap.png" alt="Indie Game Recap">
+                </div>
+                <div>
+                    <img src="images/world-ends.png" alt="The Worlds End with You">
+                </div>
+
+                <!-- To attach additional images to the carousel, wrap an <img> in a <div>. -->
+
+            </div>
         </div>
 
         <div class="container">
-        <h1>News and Recent Events</h1>
+
+            <h1>News and Recent Events</h1>
             <section id="news">
                 <!-- An event is represented by an article. These share a 1:1 relationship. -->
                 <article id = "sora">
@@ -149,5 +161,24 @@
             });
             });
         </script>
+
+        <!-- JQuery Plugin -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        
+        <!-- slick Slider plugin -->
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <!-- Targets the carousel element, and apply the slick slider.
+            Also applies an auto-play. Note: auto-play does not work 
+            when mouse is hovered over image -->
+        <script>
+            $('#carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 4000,
+            });
+        </script>
+
+
+
     </body>
 </html>
