@@ -45,6 +45,15 @@
                 <div>
                     <img src="images/world-ends.png" alt="The Worlds End with You">
                 </div>
+                <div>
+                    <img src="images/roulette3.jpg" alt="Nintendo Powerups">
+                </div>
+                <div>
+                    <img src="images/roulette4.jpg" alt="Mario in Pose">
+                </div>
+                <div>
+                    <img src="images/roulette5.jpg" alt="Legend of Zelda Landscape">
+                </div>
 
                 <!-- To attach additional images to the carousel, wrap an <img> in a <div>. -->
 
@@ -127,41 +136,6 @@
                 <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
             </ul>
         </footer>
-
-        <script>
-            const carouselImages = document.querySelector('.carousel__images');
-            const images = document.querySelectorAll('.carousel__images img');
-            const carouselButtons = document.querySelectorAll('.carousel__button');
-            const numberOfImages = document.querySelectorAll('.carousel__images img').length;
-            let imageIndex = 1;
-            let translateX = 0;
-
-            carouselButtons.forEach(button => {
-            button.addEventListener('click', (event) => {
-                if (event.target.id === 'previous') {
-                if (imageIndex !== 1) {
-                    imageIndex--;
-                    translateX += 820;
-                }
-                } else {
-                if (imageIndex !== numberOfImages) {
-                    imageIndex++;
-                    translateX -= 820;
-                }
-                }
-
-                carouselImages.style.transform = `translateX(${translateX}px)`;
-                images.forEach((image, index) => {
-                if (index === imageIndex - 1) {
-                    image.classList.add('active');
-                } else {
-                    image.classList.remove('active');
-                }
-                });
-            });
-            });
-        </script>
-
         <!-- JQuery Plugin -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         
