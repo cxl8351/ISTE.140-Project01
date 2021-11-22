@@ -92,6 +92,10 @@
                 <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
             </ul>
         </footer>
+
+        <?php include "inc/scripts.php"; ?>
+        
+
     </body>
 
 </html>
