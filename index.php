@@ -136,8 +136,8 @@
                 <li><a href="https://www.thecrimson.com/article/2021/10/5/wthh-chris-pratt-mario/">Chris Pratt as Mario</a></li>
             </ul>
         </footer>
-        <!-- JQuery Plugin -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        
+        <?php include "inc/scripts.php"; ?>
         
         <!-- slick Slider plugin -->
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
