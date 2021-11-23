@@ -60,6 +60,11 @@ img.active {
 	width: 90%;
 }
 
+.container h1{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
 /* #####################  CAROUSEL CSS ##################### */
 /* This wraps the slick slider in a container for center-alignment */
 .carousel-container{
@@ -111,6 +116,10 @@ article{
     text-align: center;
 }
 
+#brief{
+    margin-top: 15%;
+}
+
 #brief p{
     padding-left: 100px;
     padding-right: 100px;
@@ -143,7 +152,9 @@ article{
 #mario_article img{
     float: left;
     padding-right: 40px;
+    margin-top: 3%;
 }
+
 
 #gameboy img{
     float: right;
@@ -160,7 +171,7 @@ article{
 }
 
 #debate2{
-    padding-top: 0px;
+    margin-top: 5%;
 }
 
 #debate2 img{
