@@ -20,7 +20,10 @@
     background-color: lightgrey;
     list-style-type: none;
 }
-
+/*  Simply changes the border color to red on hover.*/
+#menu li:hover{
+    border-color: #E60012;
+}
 /* Targets the text content of the list items*/
 #menu li a{
     color: black;
@@ -38,12 +41,11 @@
     -moz-border-radius-bottomleft: 25px;
     -webkit-border-radius: 25px 25px 25px 25px;
     border-radius: 25px 25px 25px 25px;
-    background-color: red;
 }
 
 #menu a.is-current{
     border-radius: 25px;
-    background-color: red;
+    background-color: #E60012;
     color: white;
 }
 
