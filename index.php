@@ -31,7 +31,7 @@
         <div class="carousel-container">
             <div id="carousel">
                 <div>
-                    <img src="images/ac-happy-home.png" alt="Animal Cross New Horizons">
+                    <img src="images/acnh.png" alt="Animal Cross New Horizons">
                 </div>
                 <div>
                     <img src="images/smt-v.png" alt="Shin Megami Tensei Five">
@@ -148,8 +148,6 @@
                 autoplaySpeed: 4000,
             });
         </script>
-
-
 
     </body>
 </html>
