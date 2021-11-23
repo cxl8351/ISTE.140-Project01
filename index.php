@@ -46,9 +46,6 @@
                     <img src="images/world-ends.png" alt="The Worlds End with You">
                 </div>
                 <div>
-                    <img src="images/roulette3.jpg" alt="Nintendo Powerups">
-                </div>
-                <div>
                     <img src="images/roulette4.jpg" alt="Mario in Pose">
                 </div>
                 <div>
@@ -103,7 +100,7 @@
             </section>
 
             <section id="brief">
-                <img src="images/brief.jpg" alt="brief_img">
+                <img src="images/snes.jpg" alt="brief_img">
                 <p>
                     Nintendo Co., Ltd.[b] is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan.
                     The company was founded in 1889 as Nintendo Karuta[c] by craftsman Fusajiro Yamauchi and originally produced handmade 
