@@ -90,13 +90,13 @@
                 
             </section>
 
-            <h1>Top 5 Games</h1>
+            <h1>Top 5 Games - Hover over the images for more Information!</h1>
             <section id="top5">
-                <img src="images/animalcrossing.png" alt="animalcrossing">    
-                <img src="images/zelda.png" alt="zelda">    
-                <img src="images/kart.png" alt="kart">
-                <img src="images/smash.png" alt="smash">    
-                <img src="images/odyssey.png" alt="odyssey">    
+                <img src="images/animalcrossing.png" onmouseover = "src='images/top5_1.png'" onmouseout = "src = 'images/animalcrossing.png'" alt="animalcrossing">    
+                <img src="images/zelda.png" onmouseover = "src='images/top5_2.png'" onmouseout = "src = 'images/zelda.png'" alt="zelda">    
+                <img src="images/kart.png" onmouseover = "src='images/top5_3.png'" onmouseout = "src = 'images/kart.png'" alt="kart">
+                <img src="images/smash.png" onmouseover = "src='images/top5_4.png'" onmouseout = "src = 'images/smash.png'" alt="smash">    
+                <img src="images/odyssey.png" onmouseover = "src='images/top5_5.png'" onmouseout = "src = 'images/odyssey.png'" alt="odyssey">    
             </section>
 
             <section id="brief">
